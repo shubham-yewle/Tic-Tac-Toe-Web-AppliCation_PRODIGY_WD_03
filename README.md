@@ -44,14 +44,15 @@ Tic-Tac-Toe/
 
 1. Clone the repository:
 
-   ```bash
-   https://github.com/shubham-yewle/Tic-Tac-Toe-Web-AppliCation_PRODIGY_WD_03.git
-   ```
+```bash
+https://github.com/shubham-yewle/Tic-Tac-Toe-Web-AppliCation_PRODIGY_WD_03.git
+```
+
 2. Navigate to the project directory:
 
-   ```bash
-   cd "Tic-Tac-Toe Web AppliCation" PRODIGY_WD_03
-   ```
+```bash
+cd "Tic-Tac-Toe Web AppliCation" PRODIGY_WD_03
+```
 3. Open `index.html` in your browser to start the game.
 
 👨‍💻 Author
