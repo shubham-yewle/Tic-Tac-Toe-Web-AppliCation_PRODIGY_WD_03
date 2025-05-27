@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: rgb(245, 245, 245);
+  padding: 20px;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  color: rgb(255, 51, 0);
+  background: rgb(255, 255, 255);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: background 0.3s;
+}
+
+.cell:hover {
+  background: #f3eeee;
+}
+
+#status {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+#restart {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cell.x {
+  color: red;
+  font-weight: 600;
+}
+
+.cell.o {
+  color: blue;
+  font-weight: 600;
+}
+
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  #game {
+    grid-template-columns: repeat(3, 80px);
+    gap: 4px;
+  }
+
+  .cell {
+    width: 80px;
+    height: 80px;
+    font-size: 1.8rem;
+  }
+
+  #player-inputs input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 90%;
+    font-size: 0.95rem;
+  }
+
+  #player-inputs button,
+  #restart {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  #game {
+    grid-template-columns: repeat(3, 70px);
+    gap: 4px;
+  }
+
+  .cell {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+  }
+
+  #player-inputs input {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  #game {
+    grid-template-columns: repeat(3, 60px);
+    gap: 3px;
+  }
+
+  .cell {
+    width: 60px;
+    height: 60px;
+    font-size: 1.3rem;
+  }
+
+  #player-inputs input {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  #game {
+    grid-template-columns: repeat(3, 50px);
+    gap: 3px;
+  }
+
+  .cell {
+    width: 50px;
+    height: 50px;
+    font-size: 1.1rem;
+  }
+
+  #player-inputs input {
+    font-size: 0.8rem;
+    width: 85%;
+  }
+
+  #player-inputs button,
+  #restart {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
