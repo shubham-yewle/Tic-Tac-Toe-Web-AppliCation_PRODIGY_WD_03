@@ -50,7 +50,7 @@ Tic-Tac-Toe/
 2. Navigate to the project folder:
 
    ```bash
-   cd Tic-Tac-Toe
+   cd Tic-Tac-Toe Web AppliCation
    ```
 3. Open `index.html` in your browser to start the game.
 
