@@ -45,7 +45,7 @@ Tic-Tac-Toe/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Tic-Tac-Toe.git
+   https://github.com/shubham-yewle/Tic-Tac-Toe-Web-AppliCation_PRODIGY_WD_03.git
    ```
 2. Navigate to the project folder:
 
