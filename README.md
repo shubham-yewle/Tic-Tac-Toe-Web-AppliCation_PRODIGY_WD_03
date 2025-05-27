@@ -47,10 +47,10 @@ Tic-Tac-Toe/
    ```bash
    https://github.com/shubham-yewle/Tic-Tac-Toe-Web-AppliCation_PRODIGY_WD_03.git
    ```
-2. Navigate to the project folder:
+2. Navigate to the project directory:
 
    ```bash
-   cd Tic-Tac-Toe Web AppliCation
+   cd "Tic-Tac-Toe Web AppliCation" PRODIGY_WD_03
    ```
 3. Open `index.html` in your browser to start the game.
 
